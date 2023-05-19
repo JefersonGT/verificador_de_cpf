@@ -72,3 +72,10 @@ p#resultado.invalido {
 footer{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
