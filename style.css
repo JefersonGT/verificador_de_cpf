@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/ti/fotos-gratis/p3/3123185-sabre-neon-brilho-cor-fluindo-retangulo-fundo-gratis-foto.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333333;
+}
+
+h4 {
+    margin-bottom: 20px;
+    color: #219ebc;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    max-width: 350px;
+    margin: 110px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p#resultado {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p#resultado.valido {
+    color: #009933;
+    font-family: 'Verdana', sans-serif;
+}
+
+p#resultado.invalido {
+    color: #ff0000;
+    font-family: 'verdana', sans-serif;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
